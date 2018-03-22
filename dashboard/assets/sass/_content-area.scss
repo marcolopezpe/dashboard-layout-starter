@@ -1,4 +1,69 @@
 #content-area {
     margin-left: 280px;
     padding: 15px;
+
+    .heading {
+        
+        h1 {
+            color: purple;
+            font-size: 1.4rem;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #1b1b1b;
+            font-size: .8rem;
+            margin-bottom: 10px;
+        }
+    }
+
+    .cards {
+
+        .card {
+            background: #fff;
+            border-radius: 5px;
+            padding: 20px;
+
+            .user-img {
+                background: url("https://s3.amazonaws.com/uifaces/faces/twitter/marcosmoralez/128.jpg") no-repeat center center; 
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                width: 115px;
+                height: 115px;
+                border-radius: 50%;
+                margin: 0 auto;
+            }
+
+            .user-name {
+                font-size: 1rem;
+                color: purple;
+                display: block;
+                text-align: center;
+                margin: 10px 0;
+            }
+
+            .user-title {
+                display: block;
+                font-size: 0.8rem;
+                text-align: center;
+                margin: 10px 0;
+            }
+        }
+    }
 }
+
+.col-md-4 {
+    width: (4 * 100 / 12) + %;
+    padding: 0 15px;
+    display: inline-block;
+}
+
+.col-md-3 {
+    width: (3 * 100 / 12) + %;
+    padding: 0 15px;
+    display: inline-block;
+}
+
